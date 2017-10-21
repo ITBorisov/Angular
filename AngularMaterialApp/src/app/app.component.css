@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Modak');
+
 .example-toolbar{
     height: 250px;
 }
 
 .header{
     font-family: 'Modak', cursive;
-    font-size: 35px;
+    font-size: 40px;
     margin: 0 auto;
     padding-top: 60px;
+    color: white;
+    letter-spacing: 3px;
 }
-.test{
-    font-family: 'Modak', cursive;
-    font-size: 35px;
-}
-.example-fill-remaining-space {
-  flex: 1 1 auto;
+
+.sub-header{
+    font-size: 22px;
+    padding-left: 23px;
+    letter-spacing: 1px;
 }
 
 .example-card{
@@ -44,9 +45,29 @@
   height: 250px;
 }
 p{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Modak', cursive;
+    font-size: 16px;
     text-align: left;
 }
 
 
 
+.footer{
+    height: 250px
+}
+
+
+@media (max-width: 767px) {
+    .example-toolbar{
+    width: 100%
+}
+.example-card{
+width: 80%;
+
+}
+.example-card2 {
+  width: 80%;
+
+}
+
+}

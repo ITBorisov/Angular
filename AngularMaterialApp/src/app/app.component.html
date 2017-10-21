@@ -1,20 +1,19 @@
 <mat-toolbar color="primary" class="example-toolbar animated fadeInDown">
-  <h1 class="header">PORTFOLIO</h1>
+  <h1 class="header">PORTFOLIO<br><span class="sub-header">GEORGI BORISOV</span></h1>
 </mat-toolbar>
-<mat-card class="example-card animated fadeInUp">
-  <mat-tab-group mat-stretch-tabs>
-  <mat-tab label="PROJECTS" class="testa">
+<mat-card class="example-card animated fadeInUp hvr-grow">
+  <mat-tab-group mat-stretch-tabs dynamicHeight="true">
+  <mat-tab label="PROJECTS" class="testa" dynamicHeight="true">
     <mat-card *ngFor="let project of projects" class="example-card2 animated fadeInLeft">
         <img mat-card-image src="{{project.img}}" alt="Photo of a Shiba Inu">
         <hr>
-        <mat-card-content>
-            <p>{{project.technologies}}</p>
+        <mat-card-content >
+            <p *ngFor="let tehnologie of project.technologies">{{tehnologie}}</p>
         </mat-card-content>
         <mat-card-actions>
             <div class="button-row">
-                <button mat-raised-button color="primary"><i class="material-icons md-18">favorite</i>Primary</button>
-                <button mat-raised-button color="primary">SEE VIDEO</button>
-                <button mat-raised-button color="primary">GO TO THE SITE</button>
+                <a target="_blank" mat-raised-button color="primary" href="{{project.video}}">SEE VIDEO</a>
+                <a target="_blank" mat-raised-button color="primary" href="{{project.link}}">GO TO SITE</a>
                 
             </div>
         </mat-card-actions>
@@ -23,13 +22,16 @@
   
 
   <mat-tab label="ABOUT ME" class="testa">
-    <h1>Some more tab content</h1>
-    <p>...</p>
+    <h1>Sdwdw</h1>
+    <p>dwdwdwdwdw.</p>
   </mat-tab>
   <mat-tab label="CONTACTS" class="testa">
-    <h1>Some more tab content</h1>
+    <h1>Somedwdwdwt</h1>
     <p>...</p>
   </mat-tab>
 </mat-tab-group>
 </mat-card>
 
+<mat-toolbar color="primary" class="footer animated fadeInDown">
+
+</mat-toolbar>

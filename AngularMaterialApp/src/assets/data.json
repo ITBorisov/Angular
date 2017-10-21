@@ -2,23 +2,32 @@
   "projects": [
       {
         "img": "../assets/images/OffersApp.png",
-        "technologies": "JavaScript Node.JS ",
+        "technologies": ["JAVASCRIPT NODE MONGO EXPRESS", "HTML5 CSS3 BOOTSTRAP JQUERY", "PUG MVC WEBSOCKET PASSPORT JS "],
+        "link": "https://offers-app.herokuapp.com/",
+        "video": "https://www.youtube.com/watch?v=6hq0egoKMhs",
         "liked": "0"
       },
       {
         "img": "../assets/images/MoviesReviews.png",
-        "technologies": "JavaScript Node.JS",
-        "liked": "0"
-      },
-      {
-        "img": "../assets/images/BestCarsApp.png",
-        "technologies": "JavaScript Node.JS",
+        "technologies": ["JAVASCRIPT HTML5 CSS3", "BOOTSTRAP JQUERY MVC OOP", "SYSTEM JS HANDLEBARS SAMMY JS GULP"],
+        "link": "https://moviesreviews.herokuapp.com",
+        "video": "https://www.youtube.com/watch?v=vGKICCLOKOs",
         "liked": "0"
       },
       {
         "img": "../assets/images/FootballNewsApp.png",
-        "technologies": "JavaScript Node.JS",
+        "technologies": ["JAVASCRIPT TYPESCRIPT ANGULAR", "HTML5 CSS3 BOOTSTRAP 4", "FIREBASE "],
+        "link": "https://footballnews-8d92c.firebaseapp.com",
+        "video": "https://www.youtube.com/watch?v=e6BpsZnfMP8",
+        "liked": "0"
+      },
+      {
+        "img": "../assets/images/BestCarsApp.png",
+        "technologies": ["JAVASCRIPT HTML5 CSS3", "BOOTSTRAP JQUERY MVC OOP", "SYSTEM JS HANDLEBARS SAMMY JS KINVEY"],
+        "link": "https://bestcars.herokuapp.com",
+        "video": "https://www.youtube.com/watch?v=3K2RYK9AE08",
         "liked": "0"
       }
+      
   ]
 }
