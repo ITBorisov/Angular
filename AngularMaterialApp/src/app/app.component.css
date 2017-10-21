@@ -3,7 +3,20 @@
 .example-toolbar{
     height: 250px;
 }
+.github-link{
+    color: white;
+}
 
+.about-card{
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+}
+.mat-subheader{
+    font-family: 'Modak', cursive;
+    font-size: 20px;
+    color: #673AB7;
+}
 .header{
     font-family: 'Modak', cursive;
     font-size: 40px;
@@ -11,6 +24,7 @@
     padding-top: 60px;
     color: white;
     letter-spacing: 3px;
+    animation-delay: 1s;
 }
 
 .sub-header{
@@ -28,6 +42,10 @@
 }
 .mat-card-image{
     height: 300px;
+}
+
+.mat-card-actions{
+    margin-left: 0px;
 }
 
 
@@ -50,24 +68,31 @@ p{
     text-align: left;
 }
 
-
-
+.soon{
+    font-family: 'Modak', cursive;
+    color: #673AB7;
+    letter-spacing: 3px;
+    font-size: 28px;
+    height: 600px
+}
 .footer{
     height: 250px
 }
 
 
 @media (max-width: 767px) {
-    .example-toolbar{
+.example-toolbar{
     width: 100%
 }
 .example-card{
-width: 80%;
-
+    width: 80%;
 }
 .example-card2 {
   width: 80%;
+}
 
+.github-link{
+    display: none;
 }
 
 }

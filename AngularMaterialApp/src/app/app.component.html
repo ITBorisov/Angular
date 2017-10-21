@@ -1,5 +1,6 @@
 <mat-toolbar color="primary" class="example-toolbar animated fadeInDown">
-  <h1 class="header">PORTFOLIO<br><span class="sub-header">GEORGI BORISOV</span></h1>
+  <h1 class="header animated bounceInLeft">PORTFOLIO<br><span class="sub-header">GEORGI BORISOV</span></h1>
+  <a target="_blank" mat-raised-button color="primary" class="github-link" href="https://github.com/ITBorisov">GitHub</a>
 </mat-toolbar>
 <mat-card class="example-card animated fadeInUp hvr-grow">
   <mat-tab-group mat-stretch-tabs dynamicHeight="true">
@@ -8,13 +9,18 @@
         <img mat-card-image src="{{project.img}}" alt="Photo of a Shiba Inu">
         <hr>
         <mat-card-content >
-            <p *ngFor="let tehnologie of project.technologies">{{tehnologie}}</p>
+            <mat-list>
+              <mat-list-item *ngFor="let tehnologie of project.technologies">
+                <mat-icon matListIcon>code</mat-icon>
+                <p matLine>{{tehnologie}}</p>
+              </mat-list-item>
+            </mat-list>
         </mat-card-content>
         <mat-card-actions>
             <div class="button-row">
                 <a target="_blank" mat-raised-button color="primary" href="{{project.video}}">SEE VIDEO</a>
-                <a target="_blank" mat-raised-button color="primary" href="{{project.link}}">GO TO SITE</a>
-                
+                <a target="_blank" mat-raised-button color="primary" href="{{project.github}}">GITHUB</a>
+                <a target="_blank" mat-raised-button color="primary" href="{{project.link}}">GO TO SITE</a> 
             </div>
         </mat-card-actions>
     </mat-card>
@@ -22,12 +28,64 @@
   
 
   <mat-tab label="ABOUT ME" class="testa">
-    <h1>Sdwdw</h1>
-    <p>dwdwdwdwdw.</p>
+    <mat-card class="about-card">
+      <mat-list>
+        <h3 matSubheader>Personal information</h3>
+        <mat-list-item>
+          <mat-icon matListIcon>person</mat-icon>
+          <p matLine>Name: Georgi Borisov</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>phone</mat-icon>
+          <p matLine>Phone: +359888103816</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>email</mat-icon>
+          <p matLine>Email: georgi.borisov.it@gmail.com</p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <h3 matSubheader>Education</h3>
+        <mat-list-item>
+          <mat-icon matListIcon>event available</mat-icon>
+          <p matLine>Telerik Academy: Front-End Development</p>
+          <p matLine class="demo-2"> 2016-2017 (Completed)</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>event</mat-icon>
+          <p matLine>Soft Uni: JavaScript Developer</p>
+          <p matLine class="demo-2"> 2015-onGoing</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>event</mat-icon>
+          <p matLine>New Bulgarian University: Economy-Finance</p>
+          <p matLine class="demo-2"> 2010-2014 (Completed)</p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <h3 matSubheader>Development technologies</h3>
+        <mat-list-item>
+          <mat-icon matListIcon>code</mat-icon>
+          <p matLine>JavaScript TypeScript C#</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>code</mat-icon>
+          <p matLine>HTML5 CSS3 jQuery Bootstrap Material</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>code</mat-icon>
+          <p matLine>Angular Node.JS Mongo Express</p>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListIcon>code</mat-icon>
+          <p matLine>Gulp Handlebars Pug</p>
+        </mat-list-item>
+      </mat-list>
+    </mat-card>
   </mat-tab>
-  <mat-tab label="CONTACTS" class="testa">
-    <h1>Somedwdwdwt</h1>
-    <p>...</p>
+
+  <mat-tab label="COMMING SOON">
+    <mat-card class="about-card">
+      <h1 class="soon">COMMING SOON</h1>
+    </mat-card>
   </mat-tab>
 </mat-tab-group>
 </mat-card>
