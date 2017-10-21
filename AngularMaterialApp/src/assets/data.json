@@ -1,0 +1,24 @@
+{
+  "projects": [
+      {
+        "img": "../assets/images/OffersApp.png",
+        "technologies": "JavaScript Node.JS ",
+        "liked": "0"
+      },
+      {
+        "img": "../assets/images/MoviesReviews.png",
+        "technologies": "JavaScript Node.JS",
+        "liked": "0"
+      },
+      {
+        "img": "../assets/images/BestCarsApp.png",
+        "technologies": "JavaScript Node.JS",
+        "liked": "0"
+      },
+      {
+        "img": "../assets/images/FootballNewsApp.png",
+        "technologies": "JavaScript Node.JS",
+        "liked": "0"
+      }
+  ]
+}
