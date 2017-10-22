@@ -17,6 +17,5 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.http.get('../assets/data.json').map(response => response.json().projects)
       .subscribe(res => this.projects = res);
-    console.log(this.projects);
   }
 }

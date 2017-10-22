@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto|Ubuntu:500');
 
 .example-toolbar{
     height: 250px;
@@ -12,26 +13,30 @@
     width: 60%;
     text-align: center;
 }
+.header{
+    font-family: 'Modak', cursive;
+    font-size: 42px;
+    margin: 0 auto;
+    padding-top: 60px;
+    color: white;
+    letter-spacing: 4px;
+    animation-delay: 1s;
+}
+.sub-header{
+    font-size: 22px;
+    padding-left: 23px;
+    letter-spacing: 3px;
+}
+
+  
+
 .mat-subheader{
     font-family: 'Modak', cursive;
     font-size: 20px;
     color: #673AB7;
-}
-.header{
-    font-family: 'Modak', cursive;
-    font-size: 40px;
-    margin: 0 auto;
-    padding-top: 60px;
-    color: white;
-    letter-spacing: 3px;
-    animation-delay: 1s;
+    letter-spacing: 2px;
 }
 
-.sub-header{
-    font-size: 22px;
-    padding-left: 23px;
-    letter-spacing: 1px;
-}
 
 .example-card{
     width: 70%;
@@ -63,7 +68,8 @@
   height: 250px;
 }
 p{
-    font-family: 'Modak', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     text-align: left;
 }
@@ -79,13 +85,25 @@ p{
     height: 250px
 }
 
+.preloading{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url("../assets/images/GIFT.gif") center no-repeat #fff;
+}
 
 @media (max-width: 767px) {
 .example-toolbar{
     width: 100%
 }
 .example-card{
-    width: 80%;
+    width: 100%;
+}
+.about-card{
+    padding: 0px;
 }
 .example-card2 {
   width: 80%;
@@ -94,5 +112,10 @@ p{
 .github-link{
     display: none;
 }
-
+.about-card{
+    width: 100%;
+}
+p{
+    font-size: 10px
+}
 }

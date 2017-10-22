@@ -1,35 +1,35 @@
 {
   "projects": [
       {
-        "img": "../assets/images/OffersApp.png",
+        "img": "../assets/images/offersapp.png",
         "technologies": ["JAVASCRIPT NODE MONGO EXPRESS", "HTML5 CSS3 BOOTSTRAP JQUERY", "PUG MVC WEBSOCKET PASSPORT JS "],
         "link": "https://offers-app.herokuapp.com/",
         "video": "https://www.youtube.com/watch?v=6hq0egoKMhs",
         "github": "https://github.com/takeItEasyTeam/OffersAppFinal"
       },
       {
-        "img": "../assets/images/MoviesReviews.png",
+        "img": "../assets/images/moviesreviews.png",
         "technologies": ["JAVASCRIPT HTML5 CSS3", "BOOTSTRAP JQUERY MVC OOP", "SYSTEM JS HANDLEBARS SAMMY JS GULP"],
         "link": "https://moviesreviews.herokuapp.com",
         "video": "https://www.youtube.com/watch?v=vGKICCLOKOs",
         "github": "https://github.com/ITBorisov/Telerik-Final-Project"
       },
       {
-        "img": "../assets/images/FootballNewsApp.png",
+        "img": "../assets/images/footballnewsapp.png",
         "technologies": ["JAVASCRIPT TYPESCRIPT ANGULAR", "HTML5 CSS3 BOOTSTRAP 4", "FIREBASE "],
         "link": "https://footballnews-8d92c.firebaseapp.com",
         "video": "https://www.youtube.com/watch?v=e6BpsZnfMP8",
         "github": "https://github.com/TheDefeatedCrabs/FootballAppFix"
       },
       {
-        "img": "../assets/images/BestCarsApp.png",
+        "img": "../assets/images/bestcarsapp.png",
         "technologies": ["JAVASCRIPT HTML5 CSS3", "BOOTSTRAP JQUERY MVC OOP", "SYSTEM JS HANDLEBARS SAMMY JS KINVEY"],
         "link": "https://bestcars.herokuapp.com",
         "video": "https://www.youtube.com/watch?v=3K2RYK9AE08",
         "github": "https://github.com/Team-Peach/BestCars-SPA-App"
       },
       {
-        "img": "../assets/images/Mean.jpg",
+        "img": "../assets/images/Mean.png",
         "technologies": ["THIS APP IS IN DEVELOPMENT MODE", "ANGULAR NODE.JS EXPRESS MONGO", "TYPESCRIPT JAVASCRIPT ANGULAR MATERIAL"],
         "link": "https://github.com/ITBorisov/MEAN-Stack-Applications",
         "video": "https://github.com/ITBorisov/MEAN-Stack-Applications",
